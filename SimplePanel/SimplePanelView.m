@@ -17,4 +17,5 @@
     self.layer.shadowOffset = CGSizeMake(0, 4);
     self.layer.shadowOpacity = 0.3f;
 }
+
 @end

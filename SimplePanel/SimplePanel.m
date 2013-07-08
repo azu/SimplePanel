@@ -104,6 +104,7 @@
     [viewController.view addSubview:self.maskLayerView];
     [viewController addChildViewController:self];
     [viewController.view addSubview:self.view];
+    [self didMoveToParentViewController:viewController];
 }
 
 - (void)removeFromRootViewController {
@@ -111,8 +112,14 @@
         return;
     }
     [self.maskLayerView removeFromSuperview];
-    [self removeFromParentViewController];
+    [self willMoveToParentViewController:nil];
     [self.view removeFromSuperview];
+    [self removeFromParentViewController];
+}
+
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation) toInterfaceOrientation duration:(NSTimeInterval) duration {
+    [super willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
+    self.maskLayerView.frame = self.rootViewController.view.bounds;
 }
 
 #pragma mark - delegate
