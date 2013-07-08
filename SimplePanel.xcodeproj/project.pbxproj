@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C54F369CBB62BF2C4476 /* SimplePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA11F97A0728C3B9CB5C /* SimplePanel.m */; };
+		17B5C79D5BD0B976F95C460F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB19C370220E504C7D84 /* DemoViewController.m */; };
+		17B5C9E89923AB2CEF0A6093 /* SimplePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE9E06FD0C304964D0E9 /* SimplePanelView.m */; };
+		17B5CD450E51C83A157A7BD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C06367FA2023948BBB16 /* QuartzCore.framework */; };
+		735169D0178A646600920642 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735169CF178A646600920642 /* Storyboard.storyboard */; };
+		735169D2178A689800920642 /* SimplePanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 735169D1178A689800920642 /* SimplePanel.xib */; };
 		73E47A58178A5F3D000C0ED7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E47A57178A5F3D000C0ED7 /* UIKit.framework */; };
 		73E47A5A178A5F3D000C0ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E47A59178A5F3D000C0ED7 /* Foundation.framework */; };
 		73E47A5C178A5F3D000C0ED7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E47A5B178A5F3D000C0ED7 /* CoreGraphics.framework */; };
@@ -34,11 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		73E47A54178A5F3D000C0ED7 /* SimplePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C06367FA2023948BBB16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		17B5C4C3229629F054C106FB /* SimplePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePanel.h; sourceTree = "<group>"; };
+		17B5C679E88B9371E0A1E77F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		17B5CA11F97A0728C3B9CB5C /* SimplePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePanel.m; sourceTree = "<group>"; };
+		17B5CB19C370220E504C7D84 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		17B5CE9E06FD0C304964D0E9 /* SimplePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePanelView.m; sourceTree = "<group>"; };
+		17B5CED7E6E847DA0E226823 /* SimplePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePanelView.h; sourceTree = "<group>"; };
+		735169CF178A646600920642 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		735169D1178A689800920642 /* SimplePanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimplePanel.xib; sourceTree = "<group>"; };
+		73E47A54178A5F3D000C0ED7 /* SimplePanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E47A57178A5F3D000C0ED7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		73E47A59178A5F3D000C0ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73E47A5B178A5F3D000C0ED7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		73E47A5F178A5F3D000C0ED7 /* SimplePanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePanel-Info.plist"; sourceTree = "<group>"; };
+		73E47A5F178A5F3D000C0ED7 /* SimplePanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SimplePanel-Info.plist"; sourceTree = "<group>"; };
 		73E47A61178A5F3D000C0ED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73E47A63178A5F3D000C0ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73E47A65178A5F3D000C0ED7 /* SimplePanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePanel-Prefix.pch"; sourceTree = "<group>"; };
@@ -63,6 +78,7 @@
 				73E47A58178A5F3D000C0ED7 /* UIKit.framework in Frameworks */,
 				73E47A5A178A5F3D000C0ED7 /* Foundation.framework in Frameworks */,
 				73E47A5C178A5F3D000C0ED7 /* CoreGraphics.framework in Frameworks */,
+				17B5CD450E51C83A157A7BD2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,20 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C3934B9E5D3323017022 /* SimplePanel */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CA11F97A0728C3B9CB5C /* SimplePanel.m */,
+				17B5C4C3229629F054C106FB /* SimplePanel.h */,
+				735169D1178A689800920642 /* SimplePanel.xib */,
+				17B5CE9E06FD0C304964D0E9 /* SimplePanelView.m */,
+				17B5CED7E6E847DA0E226823 /* SimplePanelView.h */,
+			);
+			path = SimplePanel;
+			sourceTree = "<group>";
+		};
 		73E47A4B178A5F3D000C0ED7 = {
 			isa = PBXGroup;
 			children = (
-				73E47A5D178A5F3D000C0ED7 /* SimplePanel */,
+				73E47A5D178A5F3D000C0ED7 /* SimplePanelDemo */,
 				73E47A7B178A5F3D000C0ED7 /* SimplePanelTests */,
 				73E47A56178A5F3D000C0ED7 /* Frameworks */,
 				73E47A55178A5F3D000C0ED7 /* Products */,
+				17B5C3934B9E5D3323017022 /* SimplePanel */,
 			);
 			sourceTree = "<group>";
 		};
 		73E47A55178A5F3D000C0ED7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73E47A54178A5F3D000C0ED7 /* SimplePanel.app */,
+				73E47A54178A5F3D000C0ED7 /* SimplePanelDemo.app */,
 				73E47A74178A5F3D000C0ED7 /* SimplePanelTests.octest */,
 			);
 			name = Products;
@@ -105,18 +134,22 @@
 				73E47A59178A5F3D000C0ED7 /* Foundation.framework */,
 				73E47A5B178A5F3D000C0ED7 /* CoreGraphics.framework */,
 				73E47A75178A5F3D000C0ED7 /* SenTestingKit.framework */,
+				17B5C06367FA2023948BBB16 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		73E47A5D178A5F3D000C0ED7 /* SimplePanel */ = {
+		73E47A5D178A5F3D000C0ED7 /* SimplePanelDemo */ = {
 			isa = PBXGroup;
 			children = (
 				73E47A66178A5F3D000C0ED7 /* AppDelegate.h */,
 				73E47A67178A5F3D000C0ED7 /* AppDelegate.m */,
 				73E47A5E178A5F3D000C0ED7 /* Supporting Files */,
+				17B5CB19C370220E504C7D84 /* DemoViewController.m */,
+				17B5C679E88B9371E0A1E77F /* DemoViewController.h */,
+				735169CF178A646600920642 /* Storyboard.storyboard */,
 			);
-			path = SimplePanel;
+			path = SimplePanelDemo;
 			sourceTree = "<group>";
 		};
 		73E47A5E178A5F3D000C0ED7 /* Supporting Files */ = {
@@ -155,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73E47A53178A5F3D000C0ED7 /* SimplePanel */ = {
+		73E47A53178A5F3D000C0ED7 /* SimplePanelDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73E47A86178A5F3D000C0ED7 /* Build configuration list for PBXNativeTarget "SimplePanel" */;
+			buildConfigurationList = 73E47A86178A5F3D000C0ED7 /* Build configuration list for PBXNativeTarget "SimplePanelDemo" */;
 			buildPhases = (
 				73E47A50178A5F3D000C0ED7 /* Sources */,
 				73E47A51178A5F3D000C0ED7 /* Frameworks */,
@@ -167,9 +200,9 @@
 			);
 			dependencies = (
 			);
-			name = SimplePanel;
+			name = SimplePanelDemo;
 			productName = SimplePanel;
-			productReference = 73E47A54178A5F3D000C0ED7 /* SimplePanel.app */;
+			productReference = 73E47A54178A5F3D000C0ED7 /* SimplePanelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		73E47A73178A5F3D000C0ED7 /* SimplePanelTests */ = {
@@ -212,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73E47A53178A5F3D000C0ED7 /* SimplePanel */,
+				73E47A53178A5F3D000C0ED7 /* SimplePanelDemo */,
 				73E47A73178A5F3D000C0ED7 /* SimplePanelTests */,
 			);
 		};
@@ -227,6 +260,8 @@
 				73E47A6A178A5F3D000C0ED7 /* Default.png in Resources */,
 				73E47A6C178A5F3D000C0ED7 /* Default@2x.png in Resources */,
 				73E47A6E178A5F3D000C0ED7 /* Default-568h@2x.png in Resources */,
+				735169D0178A646600920642 /* Storyboard.storyboard in Resources */,
+				735169D2178A689800920642 /* SimplePanel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +298,9 @@
 			files = (
 				73E47A64178A5F3D000C0ED7 /* main.m in Sources */,
 				73E47A68178A5F3D000C0ED7 /* AppDelegate.m in Sources */,
+				17B5C54F369CBB62BF2C4476 /* SimplePanel.m in Sources */,
+				17B5C79D5BD0B976F95C460F /* DemoViewController.m in Sources */,
+				17B5C9E89923AB2CEF0A6093 /* SimplePanelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +317,7 @@
 /* Begin PBXTargetDependency section */
 		73E47A7A178A5F3D000C0ED7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 73E47A53178A5F3D000C0ED7 /* SimplePanel */;
+			target = 73E47A53178A5F3D000C0ED7 /* SimplePanelDemo */;
 			targetProxy = 73E47A79178A5F3D000C0ED7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -364,8 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimplePanel/SimplePanel-Prefix.pch";
-				INFOPLIST_FILE = "SimplePanel/SimplePanel-Info.plist";
+				GCC_PREFIX_HEADER = "SimplePanelDemo/SimplePanel-Prefix.pch";
+				INFOPLIST_FILE = "SimplePanelDemo/SimplePanel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,8 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SimplePanel/SimplePanel-Prefix.pch";
-				INFOPLIST_FILE = "SimplePanel/SimplePanel-Info.plist";
+				GCC_PREFIX_HEADER = "SimplePanelDemo/SimplePanel-Prefix.pch";
+				INFOPLIST_FILE = "SimplePanelDemo/SimplePanel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,13 +468,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73E47A86178A5F3D000C0ED7 /* Build configuration list for PBXNativeTarget "SimplePanel" */ = {
+		73E47A86178A5F3D000C0ED7 /* Build configuration list for PBXNativeTarget "SimplePanelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73E47A87178A5F3D000C0ED7 /* Debug */,
 				73E47A88178A5F3D000C0ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73E47A89178A5F3D000C0ED7 /* Build configuration list for PBXNativeTarget "SimplePanelTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +484,7 @@
 				73E47A8B178A5F3D000C0ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

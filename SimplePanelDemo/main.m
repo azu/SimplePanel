@@ -6,7 +6,6 @@
 //  Copyright (c) 2013年 azu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
 
