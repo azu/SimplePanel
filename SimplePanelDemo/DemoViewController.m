@@ -4,10 +4,12 @@
 
 
 #import "DemoViewController.h"
+#import "CustomPanel.h"
 
 
 @interface DemoViewController ()
 @property(nonatomic, strong) SimplePanel *simplePanel;
+@property(nonatomic, strong) CustomPanel *customPanel;
 @end
 
 @implementation DemoViewController {
@@ -20,12 +22,13 @@
 
     self.simplePanel = [SimplePanel panelWithRootViewController:self];
     self.simplePanel.delegate = self;
+
+    self.customPanel = [CustomPanel panelWithRootViewController:self];
+    self.customPanel.delegate = self;
 }
 
 - (void)viewDidAppear:(BOOL) animated {
     [super viewDidAppear:animated];
-
-    [self.simplePanel showInViewController:self];
 }
 #pragma mark - delegate
 - (void)willShowSimplePanel:(SimplePanel *) panel {
@@ -44,4 +47,12 @@
     NSLog(@"didCloseSimplePanel:%@", panel);
 }
 
+#pragma mark - Button
+- (IBAction)handleDefaultButton:(id) sender {
+    [self.simplePanel show];
+}
+
+- (IBAction)handleCustomButton:(id) sender {
+    [self.customPanel show];
+}
 @end

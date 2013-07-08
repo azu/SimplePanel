@@ -7,6 +7,10 @@
 #import "SimplePanel.h"
 
 
+@interface SimplePanel ()
+@property(nonatomic, strong) UIView *maskLayerView;
+@end
+
 @implementation SimplePanel {
 
 }
@@ -92,6 +96,11 @@
         return;
     }
     self.rootViewController = viewController;
+    // block touch layer
+    self.maskLayerView = [[UIView alloc] initWithFrame:viewController.view.bounds];
+    self.maskLayerView.backgroundColor = [UIColor blackColor];
+    self.maskLayerView.alpha = 0.3;
+    [viewController.view addSubview:self.maskLayerView];
     [viewController addChildViewController:self];
     [viewController.view addSubview:self.view];
 }
@@ -100,9 +109,12 @@
     if ([self.rootViewController.childViewControllers containsObject:self] == NO) {
         return;
     }
+    [self.maskLayerView removeFromSuperview];
     [self removeFromParentViewController];
     [self.view removeFromSuperview];
 }
+
+
 #pragma mark - delegate
 - (void)callDidShowSimplePanel {
     if ([self.delegate respondsToSelector:@selector(willShowSimplePanel:)]) {

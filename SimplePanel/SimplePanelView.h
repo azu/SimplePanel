@@ -7,5 +7,4 @@
 
 
 @interface SimplePanelView : UIView
-
 @end

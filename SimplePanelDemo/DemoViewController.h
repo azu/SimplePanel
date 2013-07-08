@@ -8,9 +8,13 @@
 
 @class SimplePanel;
 @class SimplePanel;
+@class CustomPanel;
 
 
 @interface DemoViewController : UIViewController <SimplePanelDelegate>
 
+- (IBAction)handleDefaultButton:(id)sender;
+
+- (IBAction)handleCustomButton:(id)sender;
 
 @end

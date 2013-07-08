@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C329C34E9DDCC439EF24 /* CustomPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C694869B8C78B46BE34D /* CustomPanel.xib */; };
 		17B5C54F369CBB62BF2C4476 /* SimplePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA11F97A0728C3B9CB5C /* SimplePanel.m */; };
+		17B5C665D2EC7ACD4E611733 /* CustomPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C8A7A4E7D94414A13F6C /* CustomPanel.m */; };
 		17B5C79D5BD0B976F95C460F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CB19C370220E504C7D84 /* DemoViewController.m */; };
 		17B5C9E89923AB2CEF0A6093 /* SimplePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CE9E06FD0C304964D0E9 /* SimplePanelView.m */; };
 		17B5CD450E51C83A157A7BD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C06367FA2023948BBB16 /* QuartzCore.framework */; };
@@ -43,8 +45,11 @@
 		17B5C06367FA2023948BBB16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17B5C4C3229629F054C106FB /* SimplePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePanel.h; sourceTree = "<group>"; };
 		17B5C679E88B9371E0A1E77F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		17B5C694869B8C78B46BE34D /* CustomPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPanel.xib; sourceTree = "<group>"; };
+		17B5C8A7A4E7D94414A13F6C /* CustomPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPanel.m; sourceTree = "<group>"; };
 		17B5CA11F97A0728C3B9CB5C /* SimplePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePanel.m; sourceTree = "<group>"; };
 		17B5CB19C370220E504C7D84 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		17B5CCC47DD0305DF6A74452 /* CustomPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPanel.h; sourceTree = "<group>"; };
 		17B5CE9E06FD0C304964D0E9 /* SimplePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePanelView.m; sourceTree = "<group>"; };
 		17B5CED7E6E847DA0E226823 /* SimplePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePanelView.h; sourceTree = "<group>"; };
 		735169CF178A646600920642 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -95,6 +100,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B5C234AC0852E4C336DA31 /* CustomPanel */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C8A7A4E7D94414A13F6C /* CustomPanel.m */,
+				17B5CCC47DD0305DF6A74452 /* CustomPanel.h */,
+				17B5C694869B8C78B46BE34D /* CustomPanel.xib */,
+			);
+			path = CustomPanel;
+			sourceTree = "<group>";
+		};
 		17B5C3934B9E5D3323017022 /* SimplePanel */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +163,7 @@
 				17B5CB19C370220E504C7D84 /* DemoViewController.m */,
 				17B5C679E88B9371E0A1E77F /* DemoViewController.h */,
 				735169CF178A646600920642 /* Storyboard.storyboard */,
+				17B5C234AC0852E4C336DA31 /* CustomPanel */,
 			);
 			path = SimplePanelDemo;
 			sourceTree = "<group>";
@@ -262,6 +278,7 @@
 				73E47A6E178A5F3D000C0ED7 /* Default-568h@2x.png in Resources */,
 				735169D0178A646600920642 /* Storyboard.storyboard in Resources */,
 				735169D2178A689800920642 /* SimplePanel.xib in Resources */,
+				17B5C329C34E9DDCC439EF24 /* CustomPanel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +318,7 @@
 				17B5C54F369CBB62BF2C4476 /* SimplePanel.m in Sources */,
 				17B5C79D5BD0B976F95C460F /* DemoViewController.m in Sources */,
 				17B5C9E89923AB2CEF0A6093 /* SimplePanelView.m in Sources */,
+				17B5C665D2EC7ACD4E611733 /* CustomPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
