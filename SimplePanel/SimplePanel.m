@@ -3,12 +3,13 @@
 //
 
 
-#import <QuartzCore/QuartzCore.h>
 #import "SimplePanel.h"
 
 
 @interface SimplePanel ()
 @property(nonatomic, strong) UIView *maskLayerView;
+
+- (IBAction)handleCloseButton:(id) sender;
 @end
 
 @implementation SimplePanel {
@@ -113,7 +114,6 @@
     [self removeFromParentViewController];
     [self.view removeFromSuperview];
 }
-
 
 #pragma mark - delegate
 - (void)callDidShowSimplePanel {

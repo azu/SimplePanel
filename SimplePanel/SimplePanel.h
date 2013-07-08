@@ -36,7 +36,5 @@
 
 - (void)showInViewController:(UIViewController *) viewController;
 
-- (IBAction)handleCloseButton:(id)sender;
-
 - (void)close;
 @end

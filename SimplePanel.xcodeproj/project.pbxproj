@@ -44,6 +44,7 @@
 /* Begin PBXFileReference section */
 		17B5C06367FA2023948BBB16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17B5C4C3229629F054C106FB /* SimplePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePanel.h; sourceTree = "<group>"; };
+		17B5C5349A0A83BDDC085060 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
 		17B5C679E88B9371E0A1E77F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		17B5C694869B8C78B46BE34D /* CustomPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPanel.xib; sourceTree = "<group>"; };
 		17B5C8A7A4E7D94414A13F6C /* CustomPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPanel.m; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 				73E47A56178A5F3D000C0ED7 /* Frameworks */,
 				73E47A55178A5F3D000C0ED7 /* Products */,
 				17B5C3934B9E5D3323017022 /* SimplePanel */,
+				17B5C5349A0A83BDDC085060 /* readme.md */,
 			);
 			sourceTree = "<group>";
 		};
