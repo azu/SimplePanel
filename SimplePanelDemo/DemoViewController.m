@@ -33,6 +33,9 @@
 #pragma mark - delegate
 - (void)willShowSimplePanel:(SimplePanel *) panel {
     NSLog(@"willShowSimplePanel:%@", panel);
+    if ([panel isEqual:self.customPanel]) {
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }
 }
 
 - (void)didShowSimplePanel:(SimplePanel *) panel {
@@ -41,6 +44,9 @@
 
 - (void)willCloseSimplePanel:(SimplePanel *) panel {
     NSLog(@"willCloseSimplePanel:%@", panel);
+    if ([panel isEqual:self.customPanel]) {
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+    }
 }
 
 - (void)didCloseSimplePanel:(SimplePanel *) panel {

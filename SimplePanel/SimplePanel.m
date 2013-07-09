@@ -55,11 +55,12 @@
 }
 
 - (void)showInViewController:(UIViewController *) viewController {
+    [self callWillShowSimplePanel];
+
     [self addToRootViewController:viewController];
     __weak typeof (self) that = self;
     self.view.center = viewController.view.center;
     self.view.transform = CGAffineTransformMakeScale(0.000001, 0.000001);
-    [self callWillShowSimplePanel];;
     [UIView animateWithDuration:self.showAnimateDuration
             delay:0
             options:UIViewAnimationOptionCurveEaseOut
