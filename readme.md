@@ -8,6 +8,12 @@ Simple modal panel window library.
 
 ## Installation
 
+Cocoapods
+
+	pod 'SimplePanel', :git => 'https://github.com/azu/SimplePanel.git'
+
+or 
+
 * Drap and Drop `SimplePanle/` to your project.
 
 ## Usage
