@@ -123,15 +123,16 @@
 }
 
 #pragma mark - delegate
-- (void)callDidShowSimplePanel {
+
+- (void)callWillShowSimplePanel {
     if ([self.delegate respondsToSelector:@selector(willShowSimplePanel:)]) {
-        [self.delegate didShowSimplePanel:self];
+        [self.delegate willShowSimplePanel:self];
     }
 }
 
-- (void)callWillShowSimplePanel {
+- (void)callDidShowSimplePanel {
     if ([self.delegate respondsToSelector:@selector(didShowSimplePanel:)]) {
-        [self.delegate willShowSimplePanel:self];
+        [self.delegate didShowSimplePanel:self];
     }
 }
 
