@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/azu/SimplePanel"
   s.license      = 'MIT'
   s.author       = { "azu" => "info@efcl.info" }
-  s.source       = { :git => "https://github.com/azu/SimplePanel.git", :commit => "bd0a368e1184c5f318c246e6a0bfeca342eaf4c5" }
+  s.source       = { :git => "https://github.com/azu/SimplePanel.git", :commit => "5e1b2dcfa6706511de31bf8c3d5aad78c2172d34" }
   s.platform     = :ios, '5.0'
   s.source_files = 'SimplePanel/**/*.{h,m,xib}'
   s.framework  = 'QuartzCore'
