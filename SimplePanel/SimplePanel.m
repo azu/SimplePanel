@@ -74,7 +74,6 @@
                 that.view.alpha = 1.0;
                 that.view.transform = CGAffineTransformMakeScale(1.0, 1.0);
             } completion:^(BOOL finished) {
-                that.view.frame = popupRect;
                 that.view.transform = CGAffineTransformIdentity;
                 [self callDidShowSimplePanel];
     }];
