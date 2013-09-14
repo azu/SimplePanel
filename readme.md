@@ -6,6 +6,8 @@ Simple modal panel window library.
 * lightweight
 * easy to customize
 
+<img src="http://f.cl.ly/items/2p0f0n322t0n3n2l0M0X/Image%202013.09.14%2023%3A37%3A03.png" height="480" />
+
 ## Installation
 
 Cocoapods
