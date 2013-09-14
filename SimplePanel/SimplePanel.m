@@ -59,7 +59,13 @@
 
     [self addToRootViewController:viewController];
     __weak typeof (self) that = self;
-    self.view.center = viewController.view.center;
+    self.view.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin;
+    CGRect popupRect = CGRectMake(
+        (viewController.view.frame.size.width - self.view.frame.size.width) / 2,
+        (viewController.view.frame.size.height - self.view.frame.size.height) / 2,
+        self.view.frame.size.width,
+        self.view.frame.size.height);
+    self.view.frame = popupRect;
     self.view.transform = CGAffineTransformMakeScale(0.000001, 0.000001);
     [UIView animateWithDuration:self.showAnimateDuration
             delay:0
@@ -67,11 +73,11 @@
             animations:^{
                 that.view.alpha = 1.0;
                 that.view.transform = CGAffineTransformMakeScale(1.0, 1.0);
-            }
-            completion:^(BOOL finished) {
+            } completion:^(BOOL finished) {
+                that.view.frame = popupRect;
                 that.view.transform = CGAffineTransformIdentity;
                 [self callDidShowSimplePanel];
-            }];
+    }];
 }
 
 - (IBAction)handleCloseButton:(id) sender {
