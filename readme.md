@@ -2,7 +2,7 @@
 
 Simple modal panel window library.
 
-* similar [UAModalPanel](https://github.com/coneybeare/UAModalPanel "UAModalPanel")
+* similar [UAModalPanel](https://github.com/coneybeare/UAModalPanel "UAModalPanel") and [martinjuhasz/MJPopupViewController](https://github.com/martinjuhasz/MJPopupViewController "martinjuhasz/MJPopupViewController").
 * lightweight
 * easy to customize
 
