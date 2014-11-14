@@ -12,11 +12,11 @@ Simple modal panel window library.
 
 Cocoapods
 
-	pod 'SimplePanel', :git => 'https://github.com/azu/SimplePanel.git'
+	pod 'SimplePanel'
 
 or 
 
-* Drap and Drop `SimplePanle/` to your project.
+* Drap and Drop `SimplePanel/` to your project.
 
 ## Usage
 
